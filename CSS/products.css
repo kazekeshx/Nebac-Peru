@@ -1,0 +1,134 @@
+.section-products .container-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+
+}
+
+.section-products .container-products .product {
+
+    height: 100%;
+   box-shadow: 0 0 1px black;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-products .container-products .product h3 {
+
+    font-size: 20px;
+}
+
+.section-products .container-products .product p {
+
+    margin: 10px auto;
+}
+
+.section-products .container-products .product span {
+    display: block;
+}
+
+ .whatsapp-fixed {
+    position: fixed;
+    width: 15%;
+   max-width: 70px;
+   bottom: 35px;
+    right: 20px;
+    z-index: 100;
+}
+.whatsapp-fixed img{
+    height: 100%;
+}
+
+.categorias{
+  display: flex;
+    align-items: center;
+    height: 100px;
+}
+.categorias .container-categorias{
+    margin:auto;
+    max-width: 600px;   
+    width: 80%;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 20px;
+   
+}
+.categorias .container-categorias h3{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+
+}
+.lista-categorias div.active {
+    font-weight: bold; /* Estilo bold para la categoría activa */
+}
+.categorias .container-categorias .lista-categorias{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    cursor: pointer;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    display: flex;
+            height: 60px;
+            background-color: var(--black);
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: auto auto 0 auto;
+}
+
+footer a {
+
+    height: 30%;
+    margin: auto auto auto 3%;
+
+}
+
+footer img {
+    height: 100%;
+
+
+}
+
+footer .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 200;
+    margin-right: 3%;
+}
+
+@media (max-width:700px) {
+    footer {
+        height: 80px;
+        flex-direction: column;
+        padding: 9px 0px;
+    }
+
+    footer a,
+    footer .footer {
+        margin: auto;
+    }
+
+    footer .footer {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+}

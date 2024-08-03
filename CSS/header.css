@@ -1,0 +1,27 @@
+header {
+    height: 90px;
+    max-height: 120px;
+width: 100%;
+}
+
+.encabezado {
+    display: flex;
+    width: 95%;
+    height: 30px;
+    max-width: 1200px;
+    font-size: 12px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.encabezado img {
+    width: 12px;
+    margin: auto 10px auto 0;
+}
+
+.encabezado p {
+    margin: auto auto auto 0;
+    color: rgb(73, 73, 73);
+    text-wrap: nowrap;
+}
